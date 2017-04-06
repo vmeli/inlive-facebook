@@ -1,0 +1,154 @@
+.c-p {
+  cursor: pointer; }
+
+.atm_Img-cover {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  display: block;
+  background: transparent; }
+
+.d-none {
+  display: none; }
+
+.parpadeo {
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  /* animation-timing-function: linear;*/
+  animation-iteration-count: infinite;
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  /* -webkit-animation-timing-function: linear;*/
+  -webkit-animation-iteration-count: infinite; }
+
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+@keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+.organism-section_inliveFacebook {
+  background: #32323E; }
+  .organism-section_inliveFacebook .video {
+    height: 197px;
+    width: 48%;
+    display: table-cell;
+    vertical-align: middle; }
+    .organism-section_inliveFacebook .video .atm_Img-cover > iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+  .organism-section_inliveFacebook .box-right {
+    padding-left: 3rem;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative; }
+    .organism-section_inliveFacebook .box-right p {
+      display: none; }
+      .organism-section_inliveFacebook .box-right p span {
+        color: #fff !important; }
+        .organism-section_inliveFacebook .box-right p span a {
+          color: #E00109; }
+  .organism-section_inliveFacebook .close {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .organism-section_inliveFacebook i.fa.fa-times {
+    text-align: center;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: #020106; }
+    .organism-section_inliveFacebook i.fa.fa-times:hover {
+      opacity: 0.5; }
+  .organism-section_inliveFacebook span#grow i {
+    font-size: 1.8rem; }
+  .organism-section_inliveFacebook span#grow:after {
+    content: "Expandir";
+    font-size: 1.5rem;
+    margin-left: 0.3rem; }
+  .organism-section_inliveFacebook span#grow:hover {
+    opacity: 0.5; }
+  .organism-section_inliveFacebook h2 {
+    margin: 0;
+    font-size: 2.6rem;
+    line-height: 2.7rem; }
+    .organism-section_inliveFacebook h2 a {
+      font-weight: bold;
+      color: white; }
+  .organism-section_inliveFacebook .close-RWD,
+  .organism-section_inliveFacebook .inlive-fbk {
+    width: 100%; }
+  .organism-section_inliveFacebook .wrapper-parpadeo {
+    background: #FB0203;
+    padding: 0.5rem;
+    display: inline-block;
+    font-weight: bold;
+    position: absolute;
+    top: 1rem;
+    left: 1rem; }
+  .organism-section_inliveFacebook .wrapper-fbk {
+    color: white;
+    padding: 2rem 1rem; }
+    .organism-section_inliveFacebook .wrapper-fbk.maximice .video {
+      width: 65%;
+      height: 297px;
+      /* height: 302px;*/ }
+    .organism-section_inliveFacebook .wrapper-fbk.maximice span#grow:after {
+      content: "Minimizar";
+      font-size: 1.5rem;
+      margin-left: 0.3rem; }
+    .organism-section_inliveFacebook .wrapper-fbk.maximice .box-right p {
+      display: block; }
+  @media (max-width: 601px) {
+    .organism-section_inliveFacebook {
+      /* .close.close-RWD {*/
+      /* 	display: block;*/
+      /* 	display: -webkit-box;*/
+      /* 	display: -ms-flexbox;*/
+      /* 	display: flex;*/
+      /* 	-webkit-box-pack: justify;*/
+      /* 	    -ms-flex-pack: justify;*/
+      /* 	        justify-content: space-between;*/
+      /* 	margin-bottom: 1rem;*/
+      /* 	.wrapper-parpadeo {*/
+      /* 		display: -webkit-box;*/
+      /* 		display: -ms-flexbox;*/
+      /* 		display: flex;*/
+      /* 		-webkit-box-align: center;*/
+      /* 		    -ms-flex-align: center;*/
+      /* 		        align-items: center;*/
+      /* 	}*/
+      /* }*/
+      /* .box-right {	*/
+      /* 	padding-left: 0;*/
+      /* 	.expand,*/
+      /* 	.inlive-fbk,*/
+      /* 	h2+p,*/
+      /* 	.close {*/
+      /* 		display: none;*/
+      /* 	}*/
+      /* 	h2 {*/
+      /* 		@include font-size(2);*/
+      /* 		@include line-height(2.2);*/
+      /* 		margin-bottom: 0;*/
+      /* 	}*/
+      /* }*/
+      /* .wrapper-fbk {*/
+      /* 	display: block;*/
+      /* 	padding: 2rem 1.5rem;*/
+      /* }*/
+      /* .video {*/
+      /* 	width: 100%;*/
+      /* }*/ } }
+
+/*# sourceMappingURL=main.css.map */
